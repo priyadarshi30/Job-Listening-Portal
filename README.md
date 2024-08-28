@@ -1,10 +1,9 @@
 # Job Portal
 
-Job Portal is a MERN Stack based web app which helps in streamlining the flow of job application process. It allows users to select there roles (applicant/recruiter), and create an account. In this web app, login session are persistent and REST APIs are securely protected by JWT token verification. After logging in, a recruiter can create/delete/update jobs, shortlist/accept/reject applications, view resume and edit profile. And, an applicant can view jobs, perform fuzzy search with various filters, apply for jobs with an SOP, view applications, upload profile picture, upload resume and edit profile. Hence, it is an all in one solution for a job application system.
+The Job Portal is a MERN stack-based web application designed to streamline the job application process by providing a comprehensive platform for both applicants and recruiters. Users can register according to their role, with the platform offering distinct features for each. The application ensures security and ease of use by implementing persistent login sessions and protecting REST APIs with JWT token verification. Recruiters can effortlessly manage job postings, including creating, updating, and deleting listings, as well as handling applications by shortlisting, accepting, or rejecting candidates. On the other hand, applicants benefit from a user-friendly interface that allows them to browse and filter job listings, apply with personalized statements of purpose (SOPs), and manage their profiles, including uploading resumes and profile pictures. This web app serves as an all-in-one solution, catering to the needs of job seekers and recruiters alike, making the entire recruitment process more efficient and organized.
 
-Demo: [Click Here](https://www.youtube.com/watch?v=lIrN-LbbBnw&ab_channel=ShlokPandey)
 
-Directory structure of the web app is as follows:
+# Directory structure of the web app is as follows:
 
 ```
 - backend/
@@ -29,38 +28,4 @@ Directory structure of the web app is as follows:
 - Frontend server will start on port 3000.
 - Now open `http://localhost:3000/` and proceed creating jobs and applications by signing up in required categories.
 
-## Dependencies:
 
-- Frontend
-  - @material-ui/core
-  - @material-ui/icons
-  - @material-ui/lab
-  - axios
-  - material-ui-chip-input
-  - react-phone-input-2
-- Backend
-  - bcrypt
-  - body-parser
-  - connect-flash
-  - connect-mongo
-  - cors
-  - crypto
-  - express
-  - express-session
-  - jsonwebtoken
-  - mongoose
-  - mongoose-type-email
-  - multer
-  - passport
-  - passport-jwt
-  - passport-local
-  - uuid
-
-# Machine Specifications
-
-Details of the machine on which the webapp was tested:
-
-- Operating System: Elementary OS 5.1 (Hera)
-- Terminal: Bash
-- Processor: Intel Core i7-8750H CPU @ 2.20 GHz 2.21 GHz
-- RAM: 16 GB
